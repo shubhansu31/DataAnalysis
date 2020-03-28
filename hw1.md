@@ -18,8 +18,8 @@ output: pdf_document
 ```nrow(data)```
 
 #Extract the last two rows of the dataset and print them.
-```rows <- nrow(data)
-data[(rows-1):rows,]```
+```rows <- nrow(data)```
+```data[(rows-1):rows,]```
 
 #What is the Ozone value in the 47th row?
 ```data[47,1]```
